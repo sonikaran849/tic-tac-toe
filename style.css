@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    text-align: center;
+    background-color:  #d59bf6;
+}
+
+@font-face {
+    font-family: comic;
+    src: url(/comic.TTF);
+}
+#heading{
+    font-size: 100px;
+    font-family: comic;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border: none;
+    font-size: 8vmin;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.box:hover {
+    background-color: #be5bec;
+    color: white;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #be5bec;
+    color: white;
+}
+
+#new-btn{
+    margin: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#new-btn:hover {
+    background-color: #be5bec;
+    color: white;
+}
+
+.msg{
+    font-size: 2rem;
+}
+
+.hide{
+    display: none;
+}
